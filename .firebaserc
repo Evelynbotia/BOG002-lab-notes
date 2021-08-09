@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "labnotes-ffc1e": {
+      "hosting": {
+        "LabNotesApp": [
+          "labnotes-ffc1e"
+        ]
+      }
+    }
+  }
+}

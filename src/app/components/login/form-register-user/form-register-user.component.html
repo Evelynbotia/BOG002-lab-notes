@@ -1,0 +1,26 @@
+<div id="backgroundRegister">
+  <div class="container">
+    <h3>Regístrate en LabNotes</h3>
+    <br>
+    <form [formGroup] = "registerForm" (ngSubmit)="onRegister()">
+      <div class="mb-3">
+        <label for="text" class="form-label">Ingresa tu nombre</label>
+        <input type="text" class="form-control" formControlName ="usuario" />
+      </div>
+      <div class="mb-3">
+        <label for="Email" class="form-label">Ingresa tu correo electrónico</label>
+        <input type="email" class="form-control" formControlName ="email" />
+      </div>
+      <div class="mb-3">
+        <label for="Password" class="form-label">Ingresa tu contraseña</label>
+        <input type="password" class="form-control" formControlName ="password" />
+      </div>
+
+      <button type="submit" class="btn btn-primary">Registrarme</button>
+      <br>
+      <br>
+      <h6>Al registrarte, aceptas nuestras condiciones, la política de datos y la política de cookies</h6>
+    </form>
+  </div>
+</div>
+

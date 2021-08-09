@@ -1,0 +1,19 @@
+<div id="backgroundForms">
+  <div class="container">
+    <h3>Suscríbete a LabNotes</h3>
+    <div class="d-grid gap-2 col-6 mx-auto">
+      <br>
+      <div class="login">
+        <button class="btn btn-primary btn" [routerLink]="['/login']" type="button">Iniciar Sesión</button>
+      </div>
+      <div class="loginGo">
+        <!-- <button class="btn btn-primary btn" type="button"class="bi bi-google"> Iniciar sesión con Google</button> -->
+        <button (click)="onGoogleLogin()" type="button" class="bi bi-google"> Ingresar con Google</button>
+      </div>
+
+      <a [routerLink]="['/recoverPassword']"> ¿Olvidaste tu contraseña? </a>
+      <p> ¿No tienes cuenta? </p>
+      <a [routerLink]="['/register']">Registrate</a>
+    </div>
+  </div>
+</div>

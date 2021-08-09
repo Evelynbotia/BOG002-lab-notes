@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@600&family=Comic+Neue:wght@300;400&family=Reem+Kufi&display=swap');
+
+
+#backgroundLogin {
+  background-image: url('../../../../assets/img/LabNoteInicio.png');
+  /* background-size: cover; */
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+.container{
+  position: absolute;
+  width: 350px;
+  height: 380px;
+  background: rgb(252, 250, 161);
+  box-shadow: 0px 4px 4px rgba(10, 10, 10, 0.25);
+  margin-left: 740px;
+  margin-top: 150px;
+  border-radius: 10px;
+}
+h3{
+  font-family: 'Cabin', sans-serif;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 35px;
+  color: rgb(24, 26, 25);
+  text-shadow: 0px 4px 4px rgba(216, 207, 207, 0.712);
+}
+button{
+  font-family: 'Cabin', sans-serif;
+  text-align: center;
+  box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25);
+  border-radius: 30px;
+  width: 310px;
+  height: 35px;
+  margin-left: -20px;
+  background: rgb(156, 76, 156);
+  color:rgb(255, 255, 255);
+  text-align: center;
+  margin-top: -10px;
+  margin-left: 5px;
+  border: transparent;
+  margin-bottom: 10px;
+}
+label{
+ font-family: 'Cabin', sans-serif;
+ margin-top: 10px;
+ margin-left: 10px;
+ font-size: 15px;
+
+}
+input{
+width: 310px;
+height: 40px;
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 5px;
+margin-top: -10px;
+margin-left:5px ;
+}
